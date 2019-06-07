@@ -1,0 +1,85 @@
+\chapter{VBF \hwwlnln analysis}\label{section:VBFanalysis}
+
+This chapter is organized as follow. Section \ref{VBF:CommonSelection} provides ...
+
+%Section \ref{subsec:data_trigger} discusses the triggers used, the trigger efficiencies and the gains of signals with the current setup.
+\section{Common event selection}\label{VBF:CommonSelection}
+...
+
+\begin{itemize}
+	\item Exactly two opposite charged and different flavor leptons ($e\mu+\mu e$)
+	\item $\pTlead > 22$ \gev, $\pTsublead > 15$ \gev
+	\item $\mll > 10$ \gev
+\end{itemize}
+
+
+
+
+\section{Construction of the VBF  phase space}\label{VBF:VBFSR}
+
+\subsection{Experimental signature of VBF Higgs boson}\label{VBF:Signature}
+The VBF production is characterized ... 
+
+
+
+
+\subsection{Event selection for VBF-enriched phase space}\label{VBF:EventSelection}
+
+After the common event selection ...
+
+\begin{table}[!h]
+	\centering
+	\caption{Ranking of the BDT training variables \cite{ATLASComNote}.}
+	\label{tab:ranking}
+	\scalebox{0.8}{
+		\input{Figures/VBFAnalysis/BDTInput/ranking.tex}
+	}
+\end{table}
+
+
+%\begin{figure}[t]
+%	\begin{minipage}{0.5\textwidth}
+%		\centering
+%		\includegraphics[width=0.9\linewidth, angle=-90]{Figures/VBFAnalysis/BDTInput/emme-CutVBFbVeto_2jet-Mll-lin}
+%	\end{minipage}
+%	\begin{minipage}{0.5\textwidth}
+%		\centering
+%		\includegraphics[width=0.9\linewidth, angle=-90]{Figures/VBFAnalysis/BDTInput/emme-CutVBFbVeto_2jet-DPhill-lin}
+%	\end{minipage}
+%		\begin{minipage}{0.5\textwidth}
+%			\centering
+%			\includegraphics[width=0.9\linewidth, angle=-90]{Figures/VBFAnalysis/BDTInput/emme-CutVBFbVeto_2jet-DYjj-lin}
+%		\end{minipage}
+%			\begin{minipage}{0.5\textwidth}
+%				\centering
+%				\includegraphics[width=0.9\linewidth, angle=-90]{Figures/VBFAnalysis/BDTInput/emme-CutVBFbVeto_2jet-Mjj-lin}
+%			\end{minipage}
+%		\caption{Distributions of BDT inputs $\mll$, $\dphill$, $\dyjj$ and $\mjj$ after VBF pre-selection. The VBF signal is scaled by a factor of 300 \cite{ATLASComNote}.}
+%		\label{fig:BDTinput1}
+%	\end{figure}
+
+\begin{table}[!h]
+	\centering
+	\caption{ 
+		Event yields in the VBF SR after fitting. Event yields in the highest BDT bin are also presented. The uncertainties include systematic and statistical uncertainties \cite{HWWRun2Paper}.}
+	\label{tab:ggF_VBF_yields}
+	\scalebox{0.8}{
+		\input{Figures/Cutflow/VBFanalysis/EventYieldVBF.tex}
+	}
+\end{table}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.45\linewidth, angle=-90]{Figures/VBFAnalysis/BDT_newStyle_V03}
+\caption{Distribution of BDT scores in the VBF SR after fitting is shown. The hatched error band shows the total uncertainty of signal and background MC prediction \cite{HWWRun2Paper}.}
+\label{fig:BDT_newStyle_V03}
+\end{figure}
+
+\section{Results of VBF analysis in Run-2}\label{VBF:Results}
+The signal strength $\mu$ is the ratio of the measured signal yields to the signal yields predicted by the SM. The signal strength for VBF analysis in our final publication \cite{HWWRun2Paper} is shown below:
+
+\begin{equation}
+\mu_{\mathrm{VBF}} =  0.62^{+0.29}_{-0.27} (\mathrm{stat.})^{+0.12}_{-0.13} (\mathrm{theo~ syst.})\pm 0.15(\mathrm{exp~ syst.}) = 0.62^{+0.36}_{-0.35}.
+\end{equation}\label{eqn:SignalStrength}
+

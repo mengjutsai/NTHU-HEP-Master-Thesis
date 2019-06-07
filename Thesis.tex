@@ -1,0 +1,64 @@
+\documentclass[12pt]{report}
+
+%==Commonly used packages==%
+\usepackage{graphicx,subfig} %For Figures
+%\usepackage{graphicx,subfigure} %For Figures
+\usepackage{amsmath,amssymb,amsthm,array} %For mathematical symbols
+\usepackage{tabularx}	% for tables
+\usepackage{rotating, booktabs}  % For table-rotating 
+\usepackage{tikz} %ploww
+\usepackage[skip=8pt]{caption} %ploww, for vertical spcae between caption and fig
+\usepackage{hyperref}
+
+
+\usepackage{booktabs}
+\usepackage[detect-all]{siunitx}
+%\setlength{\parindent}{0pt}
+\setlength\parskip{ \baselineskip}
+%\usepackage{feynman}
+
+\usepackage{multirow}
+\usepackage{Thesis-defs} % definition
+\usepackage{xspace}
+%==========================%
+%==Format of NTHU Thesis==%
+\usepackage[a4paper, top=2.54cm, bottom=2.54cm, left=3.17cm, right=3.17cm]{geometry}  % This is the standard setting of thesis of NTHU. Do not change it.
+\linespread{1.5}  % The linespread is 1.5.
+\newtheorem{thm}{Theorem}[section]  % Define new theorem.
+\newtheorem{alg}{Algorithm}[section]  % Define new algorithm.
+\usepackage{wallpaper}  % For watermark
+\CenterWallPaper{.18}{./Figures/nthu-logo}  % Watermark of NTHU
+\theoremstyle{plain}
+%=========================%
+%====For Chinese typing=====%
+\usepackage{xeCJK,fontspec} 
+\setCJKmainfont{楷體-繁} 
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt
+%===========================%
+%====For Roman number====% 如果用不到羅馬數字可以註解掉
+\makeatletter %define for Roman number
+\newcommand{\rom}[1]{\romannumeral #1} %小寫羅馬數字1=rom{1}
+\newcommand{\Rom}[1]{\expandafter\@slowromancap\romannumeral #1@} %大寫羅馬數字1=Rom{1}
+%========================%
+\setlength\@fptop{0\p@}
+\makeatother
+
+
+
+
+\begin{document}
+
+\input{Part/TitlePage} %封面和書名頁
+\input{Part/Abstract} %中英文摘要
+\input{Part/Acknowledgments} %致謝
+\input{Part/Contents} %目錄和圖表
+\input{Part/Introduction} 
+\input{Part/Detector}
+\input{Part/VBFAnalysis.tex}
+\input{Part/WWEstimation}
+\input{Part/Conclusion}
+%\input{Part/Outlook}
+\input{Part/Appendix}
+\input{Part/Reference} 
+\end{document}

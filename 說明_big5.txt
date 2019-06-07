@@ -1,0 +1,34 @@
+======2014.08 BY郭桓玉===========
+編譯執行Thesis.tex檔案，會產生Thesis.pdf檔，這就是論文了。
+Thesis.tex最上面，是清大論文格式的設定，和一些會用到的工具，不要動它。
+接下來Thesis.tex會呼叫其他.tex檔，這部分放在資料夾Part裡面，Part裡的.tex檔不是完整的檔案所以無法編譯，只要修改Part裡.tex檔的文字，儲存後執行Thesis.tex檔就會變成自己的論文。
+圖檔放在資料夾Figure裡，每次用到圖片都需要設定路徑./Figures/圖檔名稱，如果跟Thesis.tex放在同個資料夾就不用設定路徑了。
+
+Q：我已經正確引用equation或reference的位置，他卻出現Eq.(?)
+A：再編譯一次>.^
+
+Q：我只改一個章節的小地方，但是編譯整個Thesis.tex檔要花很久的時間
+A：把Thesis.tex呼叫其他章節的部分註解掉，或是把正在寫的.tex改成可以執行的檔案
+
+Q：我在寫Part裡面的.tex時，呼叫圖片使用的路徑是"./Figures/圖檔名稱"，為什麼不是"../Figures/圖檔名稱"?
+A：因為Thesis.tex會複製Part裡面的.tex檔文字，貼在Thesis.tex再編譯執行，所以編譯時的"現在位置"就是Thesis.tex所在的資料夾。
+======2014.12 BY林尚群 補充===========
+請抱著感謝郭桓玉的心使用，論文的格式一堆(http://ils.nthu.edu.tw/ezfiles/82/1082/img/1419/587197661.pdf)，校方也沒提供latex的template
+1.Jab Ref 使用說明 (自動產生reference)
+如果使用Jab Ref, 那就把Part下Reference的內容從
+\begin{thebibliography } 
+…
+\end{thebibliography } 
+刪掉，改成
+\bibliographystyle{unsrt}       
+\bibliography{./Part/xxx}
+ xxx為 JabRef的檔案(xxx.bib)，放在Part下, 編譯方式依舊為Xelatex->Bibtex-> Xelatex-> Xelatex,(如果是用texwork,可點option -> configure -> quick build -> user-> wizard設定) 每次更改xxx.bib的內容都需這樣執行.
+如果不知JabRef的威能，可參考
+http://adaam-tw.blogspot.tw/2012/07/jabref-local-mysql-windows.html
+2. Excel to latex (在latex直接插excel的表)
+Convert table in excel to latex. This Excel-To-LATEX converter exports the current selection as a LATEX file .
+http://www.ctan.org/pkg/excel2latex 
+4. Power point 插入latex (口試用)
+http://www.jonathanleroux.org/software/iguanatex/
+5. Package update:
+Open Miktex update and Miktex update (admin), then update 

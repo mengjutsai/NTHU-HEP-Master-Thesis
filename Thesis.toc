@@ -1,0 +1,27 @@
+\contentsline {chapter}{Contents}{ii}{chapter*.1}
+\contentsline {chapter}{List of Tables}{iii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{iv}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Discovery of the Higgs Boson}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}The ATLAS experiment}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The ATLAS detector}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data and MC samples}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Data samples}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}MC samples}{3}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}VBF \ensuremath {H{\rightarrow \tmspace +\thinmuskip {.1667em}}WW^{\ast }{\rightarrow \tmspace +\thinmuskip {.1667em}}\ell \nu \ell \nu }\xspace analysis}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Common event selection}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Construction of the VBF phase space}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Experimental signature of VBF Higgs boson}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Event selection for VBF-enriched phase space}{6}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Results of VBF analysis in Run-2}{6}{section.3.3}
+\contentsline {chapter}{\numberline {4}The estimation of WW background}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Normalization factor}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Construction of a WW CR}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}$m_{T}$ and $m_{T2}$ variables}{8}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}Conclusion and Outlook}{9}{chapter.5}
+\contentsline {chapter}{Appendix}{9}{chapter.5}
+\contentsline {chapter}{\numberline {A}Appendix}{10}{appendix.A}
+\contentsline {section}{\numberline {A.1}Event displays for Higgs boson candidates}{10}{section.A.1}
+\contentsline {section}{\numberline {A.2}Re-estimation of WW theoretical uncertainties with the modified $\ensuremath {\ensuremath {p_{T}}\xspace ^{\mathrm {tot}}}\xspace $ variable}{10}{section.A.2}
+\contentsline {section}{\numberline {A.3}Optimization of the selections for VBF phase space}{10}{section.A.3}
+\contentsline {chapter}{Reference}{11}{appendix*.10}
